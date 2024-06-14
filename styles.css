@@ -1,0 +1,400 @@
+/* index.html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    width: 50%;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.badge {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.badge img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+/* genres.html */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.genres {
+    padding: 20px;
+}
+
+.genre-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.genre {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.genre h3 {
+    margin-bottom: 10px;
+}
+
+.genre p {
+    line-height: 1.5;
+}
+
+/* изображение в качестве фона для каждого жанра */
+#fantasy-image {
+    width: 100%;
+    height: 200px;
+    background-image: url('фэнтези.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#sfantasy-image {
+    width: 100%;
+    height: 200px;
+    background-image: url('научфантастика.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#detective-image {
+    width: 100%;
+    height: 200px;
+    background-image: url('детектив.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* about.html */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+main section {
+  margin-bottom: 40px;
+}
+
+main section h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+main section p {
+  line-height: 1.6;
+}
+
+
+
+
+/* logo */
+header img {
+  display: inline-block;
+  height: 50px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+
+
+
+/* для книг */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+}
+
+.book h3 {
+    margin: 10px 0;
+}
+
+.book p {
+    margin: 0;
+}
+
+
+
+/*Добавить немного стиля для логотипа, чтобы он выделялся и был более заметным*/
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo a {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
+
+/*Изменить цвет фона навигационного меню и сделать его более стильным*/
+nav {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+
+
+/*Добавить немного стиля для кнопки "Исследовать жанры", чтобы она выделялась и была более привлекательной*/
+.cta {
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+/*Добавить немного стиля для изображения в hero-секции, чтобы оно было более привлекательным и выделялось*/
+.hero-image {
+  width: 50%;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/*Добавить немного стиля для hero-секции, чтобы она была более привлекательной и выделялась*/
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content {
+  width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/*Добавить немного стиля для секции "Популярные", чтобы она была более привлекательной и выделялась*/
+.popular {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.popular h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.popular ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popular ul li {
+  width: 33.33%;
+  margin-bottom: 20px;
+}
+
+.popular ul li img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
